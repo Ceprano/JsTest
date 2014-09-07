@@ -6,6 +6,8 @@ import java.util.List;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import android.util.Log;
+
 public class DiseaseDetailInfo {
 	private int mDiseaseCode;
 	private String mName;
@@ -24,6 +26,9 @@ public class DiseaseDetailInfo {
 		int total = 0;
 		for(int a:list1){
 			total = total + a;
+			
+			
+			Log.i("test","Change 1");
 		}
 		for(int b:list2){
 			total = total + b;
