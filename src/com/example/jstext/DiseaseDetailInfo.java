@@ -28,7 +28,7 @@ public class DiseaseDetailInfo {
 			total = total + a;
 			
 			
-			Log.i("test","Change 2");
+			Log.i("test","Chan ge 2");
 		}
 		for(int b:list2){
 			total = total + b;

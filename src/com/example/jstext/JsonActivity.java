@@ -28,7 +28,7 @@ public class JsonActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_json);
 		Log.d(TAG, "JsonTest onCreate");
-		AssetManager assetManager = getAssets();
+		AssetManager  assetManager = getAssets();
 		InputStream is = null;
 		try {
 			is = assetManager.open("real_jsondata_demo.txt");
